@@ -137,3 +137,4 @@ just lint
 | 38 | Pandigital Multiples | [Code](src/euler/problems/p0038_pandigital_multiples/solution.py) | [Note](src/euler/problems/p0038_pandigital_multiples/README.md) |
 | 39 | Integer Right Triangles | [Code](src/euler/problems/p0039_integer_right_triangles/solution.py) | [Note](src/euler/problems/p0039_integer_right_triangles/README.md) |
 | 40 | Champernowne's Constant | [Code](src/euler/problems/p0040_champernowne's_constant/solution.py) | [Note](src/euler/problems/p0040_champernowne's_constant/README.md) |
+| 41 | Pandigital Prime | [Code](src/euler/problems/p0041_pandigital_prime/solution.py) | [Note](src/euler/problems/p0041_pandigital_prime/README.md) |
