@@ -125,3 +125,4 @@ just lint
 | 26 | Reciprocal Cycles | [Code](src/euler/problems/p0026_reciprocal_cycles/solution.py) | [Note](src/euler/problems/p0026_reciprocal_cycles/README.md) |
 | 27 | Quadratic Primes | [Code](src/euler/problems/p0027_quadratic_primes/solution.py) | [Note](src/euler/problems/p0027_quadratic_primes/README.md) |
 | 28 | Number Spiral Diagonals | [Code](src/euler/problems/p0028_number_spiral_diagonals/solution.py) | [Note](src/euler/problems/p0028_number_spiral_diagonals/README.md) |
+| 29 | Distinct Powers | [Code](src/euler/problems/p0029_distinct_powers/solution.py) | [Note](src/euler/problems/p0029_distinct_powers/README.md) |
