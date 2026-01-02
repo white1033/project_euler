@@ -134,3 +134,4 @@ just lint
 | 35 | Circular Primes | [Code](src/euler/problems/p0035_circular_primes/solution.py) | [Note](src/euler/problems/p0035_circular_primes/README.md) |
 | 36 | Double-base Palindromes | [Code](src/euler/problems/p0036_double_base_palindromes/solution.py) | [Note](src/euler/problems/p0036_double_base_palindromes/README.md) |
 | 37 | Truncatable Primes | [Code](src/euler/problems/p0037_truncatable_primes/solution.py) | [Note](src/euler/problems/p0037_truncatable_primes/README.md) |
+| 38 | Pandigital Multiples | [Code](src/euler/problems/p0038_pandigital_multiples/solution.py) | [Note](src/euler/problems/p0038_pandigital_multiples/README.md) |
