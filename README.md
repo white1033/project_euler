@@ -136,3 +136,4 @@ just lint
 | 37 | Truncatable Primes | [Code](src/euler/problems/p0037_truncatable_primes/solution.py) | [Note](src/euler/problems/p0037_truncatable_primes/README.md) |
 | 38 | Pandigital Multiples | [Code](src/euler/problems/p0038_pandigital_multiples/solution.py) | [Note](src/euler/problems/p0038_pandigital_multiples/README.md) |
 | 39 | Integer Right Triangles | [Code](src/euler/problems/p0039_integer_right_triangles/solution.py) | [Note](src/euler/problems/p0039_integer_right_triangles/README.md) |
+| 40 | Champernowne's Constant | [Code](src/euler/problems/p0040_champernowne's_constant/solution.py) | [Note](src/euler/problems/p0040_champernowne's_constant/README.md) |
