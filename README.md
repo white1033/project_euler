@@ -117,3 +117,4 @@ just lint
 | 18 | Maximum Path Sum I | [Code](src/euler/problems/p0018_maximum_path_sum_i/solution.py) | [Note](src/euler/problems/p0018_maximum_path_sum_i/README.md) |
 | 19 | Counting Sundays | [Code](src/euler/problems/p0019_counting_sundays/solution.py) | [Note](src/euler/problems/p0019_counting_sundays/README.md) |
 | 20 | Factorial Digit Sum | [Code](src/euler/problems/p0020_factorial_digit_sum/solution.py) | [Note](src/euler/problems/p0020_factorial_digit_sum/README.md) |
+| 21 | Amicable Numbers | [Code](src/euler/problems/p0021_amicable_numbers/solution.py) | [Note](src/euler/problems/p0021_amicable_numbers/README.md) |
