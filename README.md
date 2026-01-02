@@ -135,3 +135,4 @@ just lint
 | 36 | Double-base Palindromes | [Code](src/euler/problems/p0036_double_base_palindromes/solution.py) | [Note](src/euler/problems/p0036_double_base_palindromes/README.md) |
 | 37 | Truncatable Primes | [Code](src/euler/problems/p0037_truncatable_primes/solution.py) | [Note](src/euler/problems/p0037_truncatable_primes/README.md) |
 | 38 | Pandigital Multiples | [Code](src/euler/problems/p0038_pandigital_multiples/solution.py) | [Note](src/euler/problems/p0038_pandigital_multiples/README.md) |
+| 39 | Integer Right Triangles | [Code](src/euler/problems/p0039_integer_right_triangles/solution.py) | [Note](src/euler/problems/p0039_integer_right_triangles/README.md) |
