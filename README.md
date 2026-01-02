@@ -119,3 +119,4 @@ just lint
 | 20 | Factorial Digit Sum | [Code](src/euler/problems/p0020_factorial_digit_sum/solution.py) | [Note](src/euler/problems/p0020_factorial_digit_sum/README.md) |
 | 21 | Amicable Numbers | [Code](src/euler/problems/p0021_amicable_numbers/solution.py) | [Note](src/euler/problems/p0021_amicable_numbers/README.md) |
 | 22 | Names Scores | [Code](src/euler/problems/p0022_names_scores/solution.py) | [Note](src/euler/problems/p0022_names_scores/README.md) |
+| 23 | Non-Abundant Sums | [Code](src/euler/problems/p0023_non_abundant_sums/solution.py) | [Note](src/euler/problems/p0023_non_abundant_sums/README.md) |
