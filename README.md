@@ -133,3 +133,4 @@ just lint
 | 34 | Digit Factorials | [Code](src/euler/problems/p0034_digit_factorials/solution.py) | [Note](src/euler/problems/p0034_digit_factorials/README.md) |
 | 35 | Circular Primes | [Code](src/euler/problems/p0035_circular_primes/solution.py) | [Note](src/euler/problems/p0035_circular_primes/README.md) |
 | 36 | Double-base Palindromes | [Code](src/euler/problems/p0036_double_base_palindromes/solution.py) | [Note](src/euler/problems/p0036_double_base_palindromes/README.md) |
+| 37 | Truncatable Primes | [Code](src/euler/problems/p0037_truncatable_primes/solution.py) | [Note](src/euler/problems/p0037_truncatable_primes/README.md) |
