@@ -123,3 +123,4 @@ just lint
 | 24 | Lexicographic Permutations | [Code](src/euler/problems/p0024_lexicographic_permutations/solution.py) | [Note](src/euler/problems/p0024_lexicographic_permutations/README.md) |
 | 25 | 1000-digit Fibonacci Number | [Code](src/euler/problems/p0025_1000_digit_fibonacci_number/solution.py) | [Note](src/euler/problems/p0025_1000_digit_fibonacci_number/README.md) |
 | 26 | Reciprocal Cycles | [Code](src/euler/problems/p0026_reciprocal_cycles/solution.py) | [Note](src/euler/problems/p0026_reciprocal_cycles/README.md) |
+| 27 | Quadratic Primes | [Code](src/euler/problems/p0027_quadratic_primes/solution.py) | [Note](src/euler/problems/p0027_quadratic_primes/README.md) |
