@@ -113,3 +113,4 @@ just lint
 | 14 | Longest Collatz Sequence | [Code](src/euler/problems/p0014_longest_collatz_sequence/solution.py) | [Note](src/euler/problems/p0014_longest_collatz_sequence/README.md) |
 | 15 | Lattice Paths | [Code](src/euler/problems/p0015_lattice_paths/solution.py) | [Note](src/euler/problems/p0015_lattice_paths/README.md) |
 | 16 | Power Digit Sum | [Code](src/euler/problems/p0016_power_digit_sum/solution.py) | [Note](src/euler/problems/p0016_power_digit_sum/README.md) |
+| 17 | Number Letter Counts | [Code](src/euler/problems/p0017_number_letter_counts/solution.py) | [Note](src/euler/problems/p0017_number_letter_counts/README.md) |
