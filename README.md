@@ -101,3 +101,4 @@ just lint
 | 02 | Even Fibonacci Numbers | [Code](src/euler/problems/p0002_even_fibonacci_numbers/solution.py) | [Note](src/euler/problems/p0002_even_fibonacci_numbers/README.md) |
 | 03 | Largest Prime Factor | [Code](src/euler/problems/p0003_largest_prime_factor/solution.py) | [Note](src/euler/problems/p0003_largest_prime_factor/README.md) |
 | 04 | Largest Palindrome Product | [Code](src/euler/problems/p0004_largest_palindrome_product/solution.py) | [Note](src/euler/problems/p0004_largest_palindrome_product/README.md) |
+| 05 | Smallest Multiple | [Code](src/euler/problems/p0005_smallest_multiple/solution.py) | [Note](src/euler/problems/p0005_smallest_multiple/README.md) |
