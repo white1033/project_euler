@@ -109,3 +109,4 @@ just lint
 | 10 | Summation of Primes | [Code](src/euler/problems/p0010_summation_of_primes/solution.py) | [Note](src/euler/problems/p0010_summation_of_primes/README.md) |
 | 11 | Largest Product in a Grid | [Code](src/euler/problems/p0011_largest_product_in_a_grid/solution.py) | [Note](src/euler/problems/p0011_largest_product_in_a_grid/README.md) |
 | 12 | Highly Divisible Triangular Number | [Code](src/euler/problems/p0012_highly_divisible_triangular_number/solution.py) | [Note](src/euler/problems/p0012_highly_divisible_triangular_number/README.md) |
+| 13 | Large Sum | [Code](src/euler/problems/p0013_large_sum/solution.py) | [Note](src/euler/problems/p0013_large_sum/README.md) |
