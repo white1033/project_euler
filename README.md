@@ -143,3 +143,4 @@ just lint
 | 44 | Pentagon Numbers | [Code](src/euler/problems/p0044_pentagon_numbers/solution.py) | [Note](src/euler/problems/p0044_pentagon_numbers/README.md) |
 | 45 | Triangular, Pentagonal, and Hexagonal | [Code](src/euler/problems/p0045_triangular,_pentagonal,_and_hexagonal/solution.py) | [Note](src/euler/problems/p0045_triangular,_pentagonal,_and_hexagonal/README.md) |
 | 46 | Goldbach's Other Conjecture | [Code](src/euler/problems/p0046_goldbach's_other_conjecture/solution.py) | [Note](src/euler/problems/p0046_goldbach's_other_conjecture/README.md) |
+| 47 | Distinct Primes Factors | [Code](src/euler/problems/p0047_distinct_primes_factors/solution.py) | [Note](src/euler/problems/p0047_distinct_primes_factors/README.md) |
