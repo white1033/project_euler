@@ -141,3 +141,4 @@ just lint
 | 42 | Coded Triangle Numbers | [Code](src/euler/problems/p0042_coded_triangle_numbers/solution.py) | [Note](src/euler/problems/p0042_coded_triangle_numbers/README.md) |
 | 43 | Sub-string Divisibility | [Code](src/euler/problems/p0043_sub_string_divisibility/solution.py) | [Note](src/euler/problems/p0043_sub_string_divisibility/README.md) |
 | 44 | Pentagon Numbers | [Code](src/euler/problems/p0044_pentagon_numbers/solution.py) | [Note](src/euler/problems/p0044_pentagon_numbers/README.md) |
+| 45 | Triangular, Pentagonal, and Hexagonal | [Code](src/euler/problems/p0045_triangular,_pentagonal,_and_hexagonal/solution.py) | [Note](src/euler/problems/p0045_triangular,_pentagonal,_and_hexagonal/README.md) |
