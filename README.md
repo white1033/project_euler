@@ -103,3 +103,6 @@ just lint
 | 04 | Largest Palindrome Product | [Code](src/euler/problems/p0004_largest_palindrome_product/solution.py) | [Note](src/euler/problems/p0004_largest_palindrome_product/README.md) |
 | 05 | Smallest Multiple | [Code](src/euler/problems/p0005_smallest_multiple/solution.py) | [Note](src/euler/problems/p0005_smallest_multiple/README.md) |
 | 06 | Sum Square Difference | [Code](src/euler/problems/p0006_sum_square_difference/solution.py) | [Note](src/euler/problems/p0006_sum_square_difference/README.md) |
+| 07 | 10 001st Prime | [Code](src/euler/problems/p0007_10001st_prime/solution.py) | [Note](src/euler/problems/p0007_10001st_prime/README.md) |
+| 08 | Largest Product in a Series | [Code](src/euler/problems/p0008_largest_product_in_a_series/solution.py) | [Note](src/euler/problems/p0008_largest_product_in_a_series/README.md) |
+| 09 | Special Pythagorean Triplet | [Code](src/euler/problems/p0009_special_pythagorean_triplet/solution.py) | [Note](src/euler/problems/p0009_special_pythagorean_triplet/README.md) |
