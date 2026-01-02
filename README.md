@@ -127,3 +127,4 @@ just lint
 | 28 | Number Spiral Diagonals | [Code](src/euler/problems/p0028_number_spiral_diagonals/solution.py) | [Note](src/euler/problems/p0028_number_spiral_diagonals/README.md) |
 | 29 | Distinct Powers | [Code](src/euler/problems/p0029_distinct_powers/solution.py) | [Note](src/euler/problems/p0029_distinct_powers/README.md) |
 | 30 | Digit Fifth Powers | [Code](src/euler/problems/p0030_digit_fifth_powers/solution.py) | [Note](src/euler/problems/p0030_digit_fifth_powers/README.md) |
+| 31 | Coin Sums | [Code](src/euler/problems/p0031_coin_sums/solution.py) | [Note](src/euler/problems/p0031_coin_sums/README.md) |
