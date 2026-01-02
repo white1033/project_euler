@@ -111,3 +111,4 @@ just lint
 | 12 | Highly Divisible Triangular Number | [Code](src/euler/problems/p0012_highly_divisible_triangular_number/solution.py) | [Note](src/euler/problems/p0012_highly_divisible_triangular_number/README.md) |
 | 13 | Large Sum | [Code](src/euler/problems/p0013_large_sum/solution.py) | [Note](src/euler/problems/p0013_large_sum/README.md) |
 | 14 | Longest Collatz Sequence | [Code](src/euler/problems/p0014_longest_collatz_sequence/solution.py) | [Note](src/euler/problems/p0014_longest_collatz_sequence/README.md) |
+| 15 | Lattice Paths | [Code](src/euler/problems/p0015_lattice_paths/solution.py) | [Note](src/euler/problems/p0015_lattice_paths/README.md) |
