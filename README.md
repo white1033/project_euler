@@ -145,3 +145,4 @@ just lint
 | 46 | Goldbach's Other Conjecture | [Code](src/euler/problems/p0046_goldbach's_other_conjecture/solution.py) | [Note](src/euler/problems/p0046_goldbach's_other_conjecture/README.md) |
 | 47 | Distinct Primes Factors | [Code](src/euler/problems/p0047_distinct_primes_factors/solution.py) | [Note](src/euler/problems/p0047_distinct_primes_factors/README.md) |
 | 48 | Self Powers | [Code](src/euler/problems/p0048_self_powers/solution.py) | [Note](src/euler/problems/p0048_self_powers/README.md) |
+| 49 | Prime Permutations | [Code](src/euler/problems/p0049_prime_permutations/solution.py) | [Note](src/euler/problems/p0049_prime_permutations/README.md) |
