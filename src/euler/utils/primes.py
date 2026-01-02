@@ -1,5 +1,5 @@
 import math
-from typing import Generator, List
+from typing import Generator, List, Dict
 
 def get_prime_factors(n: int) -> Generator[int, None, None]:
     """
@@ -22,6 +22,24 @@ def get_prime_factors(n: int) -> Generator[int, None, None]:
     # If n > 1, the remaining n is a prime
     if n > 1:
         yield n
+
+def count_divisors(n: int) -> int:
+    """
+    Calculates the number of divisors of n using prime factorization.
+    If n = p1^a * p2^b * ..., divisors = (a+1) * (b+1) * ...
+    """
+    if n == 1:
+        return 1
+        
+    exponents: Dict[int, int] = {}
+    for factor in get_prime_factors(n):
+        exponents[factor] = exponents.get(factor, 0) + 1
+        
+    count = 1
+    for exp in exponents.values():
+        count *= (exp + 1)
+        
+    return count
 
 def sieve_of_eratosthenes(limit: int) -> List[int]:
     """
