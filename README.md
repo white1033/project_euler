@@ -121,3 +121,4 @@ just lint
 | 22 | Names Scores | [Code](src/euler/problems/p0022_names_scores/solution.py) | [Note](src/euler/problems/p0022_names_scores/README.md) |
 | 23 | Non-Abundant Sums | [Code](src/euler/problems/p0023_non_abundant_sums/solution.py) | [Note](src/euler/problems/p0023_non_abundant_sums/README.md) |
 | 24 | Lexicographic Permutations | [Code](src/euler/problems/p0024_lexicographic_permutations/solution.py) | [Note](src/euler/problems/p0024_lexicographic_permutations/README.md) |
+| 25 | 1000-digit Fibonacci Number | [Code](src/euler/problems/p0025_1000_digit_fibonacci_number/solution.py) | [Note](src/euler/problems/p0025_1000_digit_fibonacci_number/README.md) |
