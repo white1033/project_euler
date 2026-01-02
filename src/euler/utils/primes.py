@@ -23,6 +23,25 @@ def get_prime_factors(n: int) -> Generator[int, None, None]:
     if n > 1:
         yield n
 
+def sum_proper_divisors(n: int) -> int:
+    """
+    Returns the sum of proper divisors of n (divisors less than n).
+    Example: 12 -> 1 + 2 + 3 + 4 + 6 = 16
+    """
+    if n <= 1:
+        return 0
+        
+    sum_divs = 1
+    exponents: Dict[int, int] = {}
+    for factor in get_prime_factors(n):
+        exponents[factor] = exponents.get(factor, 0) + 1
+        
+    for p, e in exponents.items():
+        # Sum of powers of p: 1 + p + ... + p^e = (p^(e+1) - 1) // (p - 1)
+        sum_divs *= (p**(e + 1) - 1) // (p - 1)
+        
+    return sum_divs - n
+
 def count_divisors(n: int) -> int:
     """
     Calculates the number of divisors of n using prime factorization.
