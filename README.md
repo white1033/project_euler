@@ -130,3 +130,4 @@ just lint
 | 31 | Coin Sums | [Code](src/euler/problems/p0031_coin_sums/solution.py) | [Note](src/euler/problems/p0031_coin_sums/README.md) |
 | 32 | Pandigital Products | [Code](src/euler/problems/p0032_pandigital_products/solution.py) | [Note](src/euler/problems/p0032_pandigital_products/README.md) |
 | 33 | Digit Cancelling Fractions | [Code](src/euler/problems/p0033_digit_cancelling_fractions/solution.py) | [Note](src/euler/problems/p0033_digit_cancelling_fractions/README.md) |
+| 34 | Digit Factorials | [Code](src/euler/problems/p0034_digit_factorials/solution.py) | [Note](src/euler/problems/p0034_digit_factorials/README.md) |
