@@ -27,14 +27,9 @@ def test_evaluate_hand_examples():
     h2 = "3C 3D 3S 9S 9D".split()
     assert evaluate_hand(h1) > evaluate_hand(h2)
 
-def test_solution_with_sample_file():
+def test_solution_full_dataset():
     """
-    Since we populated poker.txt with the 5 examples where:
-    1. P2 wins
-    2. P1 wins
-    3. P2 wins
-    4. P1 wins
-    5. P1 wins
-    Total P1 wins should be 3.
+    Test the final solution using the full poker.txt dataset.
+    The correct answer for the full 1000 hands is 376.
     """
-    assert solve() == 3
+    assert solve() == 376
