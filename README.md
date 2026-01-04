@@ -147,3 +147,9 @@ just lint
 | 48 | Self Powers | [Code](src/euler/problems/p0048_self_powers/solution.py) | [Note](src/euler/problems/p0048_self_powers/README.md) |
 | 49 | Prime Permutations | [Code](src/euler/problems/p0049_prime_permutations/solution.py) | [Note](src/euler/problems/p0049_prime_permutations/README.md) |
 | 50 | Consecutive Prime Sum | [Code](src/euler/problems/p0050_consecutive_prime_sum/solution.py) | [Note](src/euler/problems/p0050_consecutive_prime_sum/README.md) |
+| 51 | Prime Digit Replacements | [Code](src/euler/problems/p0051_prime_digit_replacements/solution.py) | [Note](src/euler/problems/p0051_prime_digit_replacements/README.md) |
+| 52 | Permuted Multiples | [Code](src/euler/problems/p0052_permuted_multiples/solution.py) | [Note](src/euler/problems/p0052_permuted_multiples/README.md) |
+| 53 | Combinatoric Selections | [Code](src/euler/problems/p0053_combinatoric_selections/solution.py) | [Note](src/euler/problems/p0053_combinatoric_selections/README.md) |
+| 54 | Poker Hands | [Code](src/euler/problems/p0054_poker_hands/solution.py) | [Note](src/euler/problems/p0054_poker_hands/README.md) |
+| 55 | Lychrel Numbers | [Code](src/euler/problems/p0055_lychrel_numbers/solution.py) | [Note](src/euler/problems/p0055_lychrel_numbers/README.md) |
+| 56 | Powerful Digit Sum | [Code](src/euler/problems/p0056_powerful_digit_sum/solution.py) | [Note](src/euler/problems/p0056_powerful_digit_sum/README.md) |
