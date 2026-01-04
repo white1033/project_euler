@@ -153,3 +153,4 @@ just lint
 | 54 | Poker Hands | [Code](src/euler/problems/p0054_poker_hands/solution.py) | [Note](src/euler/problems/p0054_poker_hands/README.md) |
 | 55 | Lychrel Numbers | [Code](src/euler/problems/p0055_lychrel_numbers/solution.py) | [Note](src/euler/problems/p0055_lychrel_numbers/README.md) |
 | 56 | Powerful Digit Sum | [Code](src/euler/problems/p0056_powerful_digit_sum/solution.py) | [Note](src/euler/problems/p0056_powerful_digit_sum/README.md) |
+| 57 | Square Root Convergents | [Code](src/euler/problems/p0057_square_root_convergents/solution.py) | [Note](src/euler/problems/p0057_square_root_convergents/README.md) |
