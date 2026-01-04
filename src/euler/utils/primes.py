@@ -3,20 +3,54 @@ from typing import Generator, List, Dict
 
 def is_prime(n: int) -> bool:
     """
-    Checks if a number is prime.
+    Checks if a number is prime using the Miller-Rabin primality test.
+    This is deterministic for n < 3,317,044,064,279,371 using the selected bases.
     """
-    if n <= 1:
-        return False
-    if n <= 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
+    if n <= 1: return False
+    if n <= 3: return True
+    if n % 2 == 0 or n % 3 == 0: return False
     
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
+    # For small numbers, Trial Division is still very fast and has less overhead
+    if n < 1000:
+        i = 5
+        while i * i <= n:
+            if n % i == 0 or n % (i + 2) == 0:
+                return False
+            i += 6
+        return True
+
+    # Miller-Rabin Primality Test
+    # Write n-1 as 2^r * d
+    d = n - 1
+    r = 0
+    while d % 2 == 0:
+        d //= 2
+        r += 1
+        
+    # Witness bases deterministic for n < 4,759,123,141
+    # For larger n (up to 2^64), we would need more bases: [2, 325, 9375, 28178, 450775, 9780504, 1795265022]
+    # Since Project Euler problems rarely exceed 2^64, we can expand the bases if needed.
+    # For this specific problem (n ~ 7*10^8), [2, 7, 61] is sufficient.
+    # To be safe for general use up to 2^64, we use the larger set.
+    
+    if n < 4759123141:
+        bases = [2, 7, 61]
+    else:
+        bases = [2, 325, 9375, 28178, 450775, 9780504, 1795265022]
+
+    for a in bases:
+        if a >= n: break
+        x = pow(a, d, n)
+        if x == 1 or x == n - 1:
+            continue
+        
+        for _ in range(r - 1):
+            x = pow(x, 2, n)
+            if x == n - 1:
+                break
+        else:
             return False
-        i += 6
+            
     return True
 
 def get_prime_factors(n: int) -> Generator[int, None, None]:

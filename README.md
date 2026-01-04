@@ -155,3 +155,4 @@ just lint
 | 56 | Powerful Digit Sum | [Code](src/euler/problems/p0056_powerful_digit_sum/solution.py) | [Note](src/euler/problems/p0056_powerful_digit_sum/README.md) |
 | 57 | Square Root Convergents | [Code](src/euler/problems/p0057_square_root_convergents/solution.py) | [Note](src/euler/problems/p0057_square_root_convergents/README.md) |
 | 58 | Spiral Primes | [Code](src/euler/problems/p0058_spiral_primes/solution.py) | [Note](src/euler/problems/p0058_spiral_primes/README.md) |
+| 59 | XOR Decryption | [Code](src/euler/problems/p0059_xor_decryption/solution.py) | [Note](src/euler/problems/p0059_xor_decryption/README.md) |
