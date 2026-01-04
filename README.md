@@ -156,3 +156,4 @@ just lint
 | 57 | Square Root Convergents | [Code](src/euler/problems/p0057_square_root_convergents/solution.py) | [Note](src/euler/problems/p0057_square_root_convergents/README.md) |
 | 58 | Spiral Primes | [Code](src/euler/problems/p0058_spiral_primes/solution.py) | [Note](src/euler/problems/p0058_spiral_primes/README.md) |
 | 59 | XOR Decryption | [Code](src/euler/problems/p0059_xor_decryption/solution.py) | [Note](src/euler/problems/p0059_xor_decryption/README.md) |
+| 60 | Prime Pair Sets | [Code](src/euler/problems/p0060_prime_pair_sets/solution.py) | [Note](src/euler/problems/p0060_prime_pair_sets/README.md) |
