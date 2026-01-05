@@ -3,6 +3,7 @@ Problem 44: Pentagon Numbers
 """
 
 import math
+
 from euler.utils.common import timeit
 
 

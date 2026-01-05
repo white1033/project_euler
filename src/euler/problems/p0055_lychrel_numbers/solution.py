@@ -1,5 +1,6 @@
 from euler.utils.common import timeit
 
+
 def is_palindrome(n: int) -> bool:
     """Checks if a number is a palindrome."""
     s = str(n)

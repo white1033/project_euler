@@ -3,6 +3,7 @@ Problem 31: Coin Sums
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(target: int = 200) -> int:
     """

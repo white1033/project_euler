@@ -1,6 +1,6 @@
-import pytest
 from euler.problems.p0058_spiral_primes.solution import solve
 from euler.utils.primes import is_prime
+
 
 def test_example_case():
     """

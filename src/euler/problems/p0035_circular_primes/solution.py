@@ -4,6 +4,7 @@ Problem 35: Circular Primes
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
 
+
 def get_rotations(n: int) -> list[int]:
     """Generates all rotations of the number n."""
     s = str(n)

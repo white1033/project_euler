@@ -3,6 +3,7 @@ Problem 45: Triangular, Pentagonal, and Hexagonal
 """
 
 import math
+
 from euler.utils.common import timeit
 
 

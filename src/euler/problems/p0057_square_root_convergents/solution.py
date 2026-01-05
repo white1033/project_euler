@@ -1,5 +1,6 @@
+
 from euler.utils.common import timeit
-import math
+
 
 def get_next_convergent(n: int, d: int) -> tuple[int, int]:
     """

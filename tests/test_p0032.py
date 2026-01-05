@@ -1,4 +1,5 @@
-from euler.problems.p0032_pandigital_products.solution import solve, is_pandigital
+from euler.problems.p0032_pandigital_products.solution import is_pandigital, solve
+
 
 def test_p0032_example():
     # 39 * 186 = 7254

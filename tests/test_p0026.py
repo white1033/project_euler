@@ -1,4 +1,5 @@
-from euler.problems.p0026_reciprocal_cycles.solution import solve, get_cycle_length
+from euler.problems.p0026_reciprocal_cycles.solution import get_cycle_length, solve
+
 
 def test_p0026_examples():
     # 1/6 = 0.1(6) -> length 1

@@ -1,5 +1,6 @@
 from euler.problems.p0022_names_scores.solution import get_name_score
 
+
 def test_p0022_score_logic():
     # COLIN = 3 + 15 + 12 + 9 + 14 = 53
     # If COLIN is the 938th name
@@ -10,8 +11,8 @@ def test_p0022_solution():
     # We can perhaps mock the file reading if we wanted to be strict,
     # but for now we will skip the integration test until the file is present.
     # Or we can create a dummy file for testing?
-    import os
     from pathlib import Path
+
     from euler.problems.p0022_names_scores.solution import solve
     
     # Create a temporary test file

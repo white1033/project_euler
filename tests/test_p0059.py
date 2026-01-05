@@ -1,5 +1,5 @@
-import pytest
-from euler.problems.p0059_xor_decryption.solution import solve, decrypt, score_text
+from euler.problems.p0059_xor_decryption.solution import decrypt, score_text, solve
+
 
 def test_decrypt_logic():
     """

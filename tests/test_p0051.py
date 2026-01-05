@@ -1,5 +1,5 @@
-import pytest
-from euler.problems.p0051_prime_digit_replacements.solution import solve, get_family_size
+from euler.problems.p0051_prime_digit_replacements.solution import get_family_size, solve
+
 
 def test_example_case_1():
     """

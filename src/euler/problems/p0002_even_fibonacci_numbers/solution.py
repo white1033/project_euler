@@ -3,6 +3,7 @@ Problem 2: Even Fibonacci Numbers
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve():
     """

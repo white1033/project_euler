@@ -1,5 +1,6 @@
 from euler.utils.common import timeit
 
+
 @timeit
 def solve() -> int:
     """

@@ -3,6 +3,7 @@ Problem 6: Sum Square Difference
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve():
     """

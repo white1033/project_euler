@@ -1,5 +1,6 @@
 from euler.problems.p0024_lexicographic_permutations.solution import solve
 
+
 def test_p0024_example():
     digits = [0, 1, 2]
     assert solve(nth=1, digits=digits) == "012"

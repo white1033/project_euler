@@ -3,6 +3,7 @@ Problem 0: Sum of odd squares
 '''
 from euler.utils.common import timeit
 
+
 def sum_squares(n: int) -> int:
     """Calculates sum of 1^2 + ... + n^2 using formula."""
     return n * (n + 1) * (2 * n + 1) // 6

@@ -2,8 +2,10 @@
 Problem 5: Smallest Multiple
 '''
 import math
+
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
+
 
 @timeit
 def solve():

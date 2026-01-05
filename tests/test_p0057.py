@@ -1,5 +1,5 @@
-import pytest
-from euler.problems.p0057_square_root_convergents.solution import solve, get_next_convergent
+from euler.problems.p0057_square_root_convergents.solution import get_next_convergent, solve
+
 
 def test_get_next_convergent():
     """Test the recurrence relation for the first few expansions."""

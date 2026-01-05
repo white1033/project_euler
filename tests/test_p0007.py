@@ -1,5 +1,6 @@
 from euler.problems.p0007_10001st_prime.solution import solve
 
+
 def test_p0007_example():
     assert solve(n=6) == 13
 

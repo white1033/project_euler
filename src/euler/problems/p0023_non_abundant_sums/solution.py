@@ -4,6 +4,7 @@ Problem 23: Non-Abundant Sums
 from euler.utils.common import timeit
 from euler.utils.primes import sum_proper_divisors
 
+
 @timeit
 def solve(limit: int = 28123) -> int:
     """

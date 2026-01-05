@@ -3,6 +3,7 @@ Problem 26: Reciprocal Cycles
 '''
 from euler.utils.common import timeit
 
+
 def get_cycle_length(d: int) -> int:
     """
     Calculates the length of the recurring cycle in 1/d.

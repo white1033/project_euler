@@ -3,6 +3,7 @@ Problem 41: Pandigital Prime
 """
 
 from itertools import permutations
+
 from euler.utils.common import timeit
 from euler.utils.primes import is_prime
 

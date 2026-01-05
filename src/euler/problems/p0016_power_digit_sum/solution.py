@@ -3,6 +3,7 @@ Problem 16: Power Digit Sum
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(exponent: int = 1000) -> int:
     """

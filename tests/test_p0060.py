@@ -1,5 +1,10 @@
-import pytest
-from euler.problems.p0060_prime_pair_sets.solution import solve, is_pair_prime, find_clique, sieve_of_eratosthenes
+from euler.problems.p0060_prime_pair_sets.solution import (
+    find_clique,
+    is_pair_prime,
+    sieve_of_eratosthenes,
+    solve,
+)
+
 
 def test_prime_pair_check():
     """

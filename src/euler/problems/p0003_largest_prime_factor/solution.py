@@ -4,6 +4,7 @@ Problem 3: Largest Prime Factor
 from euler.utils.common import timeit
 from euler.utils.primes import get_prime_factors
 
+
 @timeit
 def solve():
     """

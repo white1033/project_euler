@@ -2,7 +2,9 @@
 Problem 15: Lattice Paths
 '''
 import math
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve(grid_size: int = 20) -> int:

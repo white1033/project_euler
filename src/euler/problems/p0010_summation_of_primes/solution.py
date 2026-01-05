@@ -4,6 +4,7 @@ Problem 10: Summation of Primes
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
 
+
 @timeit
 def solve(limit: int = 2_000_000) -> int:
     """

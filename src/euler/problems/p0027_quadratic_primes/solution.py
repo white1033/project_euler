@@ -4,6 +4,7 @@ Problem 27: Quadratic Primes
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
 
+
 @timeit
 def solve() -> int:
     """

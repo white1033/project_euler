@@ -1,5 +1,6 @@
 from collections import Counter
 from pathlib import Path
+
 from euler.utils.common import timeit
 
 # Card Rank Mapping
@@ -107,7 +108,7 @@ def solve() -> int:
         
     p1_wins = 0
     
-    with open(file_path, 'r') as f:
+    with open(file_path) as f:
         for line in f:
             line = line.strip()
             if not line:

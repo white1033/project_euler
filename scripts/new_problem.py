@@ -1,6 +1,6 @@
 import sys
-import os
 from pathlib import Path
+
 
 def create_problem(problem_id: int, name: str = "problem"):
     # Format folder name, e.g., p0001_multiples_of_3_and_5

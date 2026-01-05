@@ -1,5 +1,5 @@
-import pytest
 from euler.problems.p0053_combinatoric_selections.solution import solve
+
 
 def test_known_values():
     """

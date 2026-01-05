@@ -1,5 +1,6 @@
-from euler.utils.primes import sieve_of_eratosthenes, is_prime
 from euler.utils.common import timeit
+from euler.utils.primes import is_prime, sieve_of_eratosthenes
+
 
 def get_family_size(pattern: str) -> list[int]:
     """

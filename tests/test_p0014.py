@@ -1,5 +1,6 @@
 from euler.problems.p0014_longest_collatz_sequence.solution import solve
 
+
 def test_p0014_example():
     # We can't easily test the "max under 1,000,000" with a small example,
     # but we can verify our chain logic if we exposed the helper.

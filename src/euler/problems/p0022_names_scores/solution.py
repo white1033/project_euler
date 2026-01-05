@@ -1,9 +1,10 @@
 '''
 Problem 22: Names Scores
 '''
-import os
 from pathlib import Path
+
 from euler.utils.common import timeit
+
 
 def get_name_score(name: str, position: int) -> int:
     """
@@ -30,7 +31,7 @@ def solve(file_path: str = "names.txt"):
         # Fallback or error message if user hasn't provided the file yet
         return f"Error: File {target_file} not found. Please provide names.txt."
         
-    with open(target_file, 'r') as f:
+    with open(target_file) as f:
         content = f.read()
         
     # The file format is likely "MARY","PATRICIA","LINDA",...

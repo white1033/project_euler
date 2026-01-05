@@ -1,5 +1,6 @@
 from euler.problems.p0031_coin_sums.solution import solve
 
+
 def test_p0031_example():
     # Example logic: How many ways to make 5p?
     # 1. 1x5p

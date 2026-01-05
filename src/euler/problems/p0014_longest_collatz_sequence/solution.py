@@ -3,6 +3,7 @@ Problem 14: Longest Collatz Sequence
 '''
 import sys
 from functools import cache
+
 from euler.utils.common import timeit
 
 # Increase recursion depth just in case, though Collatz chains usually aren't *that* deep.

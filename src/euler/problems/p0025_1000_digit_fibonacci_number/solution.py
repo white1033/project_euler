@@ -2,7 +2,9 @@
 Problem 25: 1000-digit Fibonacci Number
 '''
 import math
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve(n_digits: int = 1000) -> int:

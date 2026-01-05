@@ -1,6 +1,6 @@
+
 from euler.utils.common import timeit
 from euler.utils.primes import is_prime, sieve_of_eratosthenes
-import math
 
 # Memoization for pair checking to speed up repeated checks
 pair_cache = {}

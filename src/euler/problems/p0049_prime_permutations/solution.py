@@ -3,6 +3,7 @@ Problem 49: Prime Permutations
 """
 
 from collections import defaultdict
+
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
 

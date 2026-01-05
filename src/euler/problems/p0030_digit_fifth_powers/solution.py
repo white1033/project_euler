@@ -3,6 +3,7 @@ Problem 30: Digit Fifth Powers
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(power: int = 5) -> int:
     """

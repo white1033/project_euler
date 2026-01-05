@@ -3,6 +3,7 @@ Problem 9: Special Pythagorean Triplet
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(target_sum: int = 1000) -> int:
     """

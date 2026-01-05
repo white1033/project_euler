@@ -3,6 +3,7 @@ Problem 46: Goldbach's Other Conjecture
 """
 
 import math
+
 from euler.utils.common import timeit
 from euler.utils.primes import is_prime
 

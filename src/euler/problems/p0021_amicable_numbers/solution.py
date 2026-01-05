@@ -4,6 +4,7 @@ Problem 21: Amicable Numbers
 from euler.utils.common import timeit
 from euler.utils.primes import sum_proper_divisors
 
+
 @timeit
 def solve(limit: int = 10000) -> int:
     """

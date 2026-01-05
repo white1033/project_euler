@@ -2,7 +2,9 @@
 Problem 20: Factorial Digit Sum
 '''
 import math
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve(n: int = 100) -> int:

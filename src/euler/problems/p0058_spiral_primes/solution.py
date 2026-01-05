@@ -1,6 +1,7 @@
 from euler.utils.common import timeit
 from euler.utils.primes import is_prime
 
+
 @timeit
 def solve() -> int:
     """

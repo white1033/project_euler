@@ -3,6 +3,7 @@ Problem 29: Distinct Powers
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(limit: int = 100) -> int:
     """

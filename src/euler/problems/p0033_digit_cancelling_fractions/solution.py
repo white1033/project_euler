@@ -1,10 +1,10 @@
 '''
 Problem 33: Digit Cancelling Fractions
 '''
-import time
-import math
 from fractions import Fraction
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve() -> int:

@@ -1,5 +1,6 @@
 import math
-from typing import Generator, List, Dict
+from collections.abc import Generator
+
 
 def is_prime(n: int) -> bool:
     """
@@ -84,7 +85,7 @@ def sum_proper_divisors(n: int) -> int:
         return 0
         
     sum_divs = 1
-    exponents: Dict[int, int] = {}
+    exponents: dict[int, int] = {}
     for factor in get_prime_factors(n):
         exponents[factor] = exponents.get(factor, 0) + 1
         
@@ -102,7 +103,7 @@ def count_divisors(n: int) -> int:
     if n == 1:
         return 1
         
-    exponents: Dict[int, int] = {}
+    exponents: dict[int, int] = {}
     for factor in get_prime_factors(n):
         exponents[factor] = exponents.get(factor, 0) + 1
         
@@ -112,7 +113,7 @@ def count_divisors(n: int) -> int:
         
     return count
 
-def sieve_of_eratosthenes(limit: int) -> List[int]:
+def sieve_of_eratosthenes(limit: int) -> list[int]:
     """
     Returns a list of all primes <= limit.
     """

@@ -2,7 +2,9 @@
 Problem 34: Digit Factorials
 '''
 import math
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve() -> int:

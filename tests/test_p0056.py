@@ -1,5 +1,5 @@
-import pytest
 from euler.problems.p0056_powerful_digit_sum.solution import solve, sum_digits
+
 
 def test_sum_digits():
     """Test the digit sum helper function."""

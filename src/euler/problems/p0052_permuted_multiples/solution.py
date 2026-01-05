@@ -1,5 +1,7 @@
 from collections import Counter
+
 from euler.utils.common import timeit
+
 
 def is_same_digits(n1: int, n2: int) -> bool:
     """

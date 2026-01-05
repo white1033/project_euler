@@ -3,6 +3,7 @@ Problem 1: Multiples of 3 or 5
 '''
 from euler.utils.common import timeit
 
+
 def sum_divisible_by(n: int, limit: int) -> int:
     """
     Calculates sum of multiples of n below limit.

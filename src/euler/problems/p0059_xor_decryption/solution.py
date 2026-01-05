@@ -1,6 +1,8 @@
 import os
 from collections import Counter
+
 from euler.utils.common import timeit
+
 
 def decrypt(cipher: list[int], key: list[int]) -> list[int]:
     """Decrypts the cipher using XOR with the given key (cyclic)."""
@@ -86,7 +88,7 @@ def solve() -> int:
     current_dir = os.path.dirname(os.path.abspath(__file__))
     cipher_path = os.path.join(current_dir, "0059_cipher.txt")
     
-    with open(cipher_path, "r") as f:
+    with open(cipher_path) as f:
         content = f.read().strip()
         cipher = [int(x) for x in content.split(",")]
 

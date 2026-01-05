@@ -1,5 +1,5 @@
-import pytest
-from euler.problems.p0052_permuted_multiples.solution import solve, is_same_digits
+from euler.problems.p0052_permuted_multiples.solution import is_same_digits, solve
+
 
 def test_is_same_digits():
     """

@@ -3,6 +3,7 @@ Problem 28: Number Spiral Diagonals
 '''
 from euler.utils.common import timeit
 
+
 @timeit
 def solve(size: int = 1001) -> int:
     """

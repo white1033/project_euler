@@ -1,5 +1,7 @@
-from euler.problems.p0034_digit_factorials.solution import solve
 import math
+
+from euler.problems.p0034_digit_factorials.solution import solve
+
 
 def test_p0034_curious_number():
     # 145 = 1! + 4! + 5! = 1 + 24 + 120 = 145

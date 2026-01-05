@@ -1,4 +1,5 @@
-from euler.problems.p0017_number_letter_counts.solution import solve, count_letters
+from euler.problems.p0017_number_letter_counts.solution import count_letters, solve
+
 
 def test_p0017_examples():
     # 1 to 5: one, two, three, four, five -> 3+3+5+4+4 = 19

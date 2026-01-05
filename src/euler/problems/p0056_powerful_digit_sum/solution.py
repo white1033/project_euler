@@ -1,5 +1,6 @@
 from euler.utils.common import timeit
 
+
 def sum_digits(n: int) -> int:
     """Calculates the sum of digits of n."""
     return sum(int(d) for d in str(n))

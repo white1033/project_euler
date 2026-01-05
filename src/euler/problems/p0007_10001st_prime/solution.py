@@ -4,6 +4,7 @@ Problem 7: 10001st Prime
 from euler.utils.common import timeit
 from euler.utils.primes import sieve_of_eratosthenes
 
+
 @timeit
 def solve(n: int = 10_001):
     """

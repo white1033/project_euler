@@ -1,6 +1,7 @@
 from euler.problems.p0021_amicable_numbers.solution import solve
 from euler.utils.primes import sum_proper_divisors
 
+
 def test_p0021_example():
     # d(220) = 284
     assert sum_proper_divisors(220) == 284

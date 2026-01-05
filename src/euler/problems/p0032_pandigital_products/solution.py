@@ -3,6 +3,7 @@ Problem 32: Pandigital Products
 '''
 from euler.utils.common import timeit
 
+
 def is_pandigital(n_str: str) -> bool:
     """
     Checks if the string contains digits 1-9 exactly once.

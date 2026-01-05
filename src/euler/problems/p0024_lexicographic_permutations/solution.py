@@ -2,7 +2,9 @@
 Problem 24: Lexicographic Permutations
 '''
 import math
+
 from euler.utils.common import timeit
+
 
 @timeit
 def solve(nth: int = 1_000_000, digits: list[int] = None) -> str:

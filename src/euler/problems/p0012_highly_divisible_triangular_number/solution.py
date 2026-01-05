@@ -4,6 +4,7 @@ Problem 12: Highly Divisible Triangular Number
 from euler.utils.common import timeit
 from euler.utils.primes import count_divisors
 
+
 @timeit
 def solve(target_divisors: int = 500) -> int:
     """

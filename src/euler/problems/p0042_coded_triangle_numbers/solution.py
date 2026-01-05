@@ -1,8 +1,9 @@
 """
 Problem 42: Coded Triangle Numbers
 """
-import os
 import math
+import os
+
 from euler.utils.common import timeit
 
 
@@ -50,7 +51,7 @@ def solve():
         print(f"Error: {file_path} not found.")
         return 0
 
-    with open(file_path, 'r') as f:
+    with open(file_path) as f:
         content = f.read()
         
     # The file format is "WORD","WORD","WORD"...

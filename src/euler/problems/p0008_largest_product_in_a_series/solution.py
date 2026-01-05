@@ -1,9 +1,10 @@
 '''
 Problem 8: Largest Product in a Series
 '''
-from euler.utils.common import timeit
 from functools import reduce
 from operator import mul
+
+from euler.utils.common import timeit
 
 NUMBER_STRING = (
     "73167176531330624919225119674426574742355349194934"

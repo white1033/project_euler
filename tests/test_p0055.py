@@ -1,5 +1,5 @@
-import pytest
-from euler.problems.p0055_lychrel_numbers.solution import solve, is_lychrel
+from euler.problems.p0055_lychrel_numbers.solution import is_lychrel, solve
+
 
 def test_examples():
     # 47 becomes 121 in 1 iteration
