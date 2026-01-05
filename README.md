@@ -158,3 +158,4 @@ just lint
 | 59 | XOR Decryption | [Code](src/euler/problems/p0059_xor_decryption/solution.py) | [Note](src/euler/problems/p0059_xor_decryption/README.md) |
 | 60 | Prime Pair Sets | [Code](src/euler/problems/p0060_prime_pair_sets/solution.py) | [Note](src/euler/problems/p0060_prime_pair_sets/README.md) |
 | 61 | Cyclical Figurate Numbers | [Code](src/euler/problems/p0061_cyclical_figurate_numbers/solution.py) | [Note](src/euler/problems/p0061_cyclical_figurate_numbers/README.md) |
+| 62 | Cubic Permutations | [Code](src/euler/problems/p0062_cubic_permutations/solution.py) | [Note](src/euler/problems/p0062_cubic_permutations/README.md) |
