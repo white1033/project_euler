@@ -50,5 +50,27 @@ We simply sum these counts for $a = 1$ to $9$.
 
 #### Example
 For $a=9$:
-$$ n \le \frac{1}{1 - \log_{10}(9)} \approx \frac{1}{1 - 0.9542} \approx \frac{1}{0.0458} \approx 21.8 $$
+$ n \le \frac{1}{1 - \log_{10}(9)} \approx \frac{1}{1 - 0.9542} \approx \frac{1}{0.0458} \approx 21.8 $
 So for $a=9$, there are 21 values of $n$ (from 1 to 21) where $9^n$ has $n$ digits.
+
+## Alternative Approaches
+
+### Integer Iteration
+While the logarithmic approach is efficient and mathematically elegant, we can also solve this using a direct simulation with Python's arbitrary-precision integers. This avoids any potential (though unlikely in this specific case) floating-point precision issues.
+
+We iterate through each base $a \in [1, 9]$ and increment the power $n$ as long as the length condition holds.
+
+```python
+def solve_integer_only():
+    count = 0
+    for a in range(1, 10):
+        n = 1
+        while len(str(a**n)) == n:
+            count += 1
+            n += 1
+    return count
+```
+
+### Comparison
+*   **Logarithmic Method (Used)**: $O(1)$ complexity relative to the output magnitude. Extremely fast as it uses CPU floating-point instructions.
+*   **Integer Iteration**: Robust and intuitive. It avoids floating-point arithmetic entirely but is slightly slower due to the cost of computing large powers and converting them to decimal strings (a relatively expensive operation).
