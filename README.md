@@ -170,3 +170,4 @@ just lint
 | 71 | Ordered Fractions | [Code](src/euler/problems/p0071_ordered_fractions/solution.py) | [Note](src/euler/problems/p0071_ordered_fractions/README.md) |
 | 72 | Counting Fractions | [Code](src/euler/problems/p0072_counting_fractions/solution.py) | [Note](src/euler/problems/p0072_counting_fractions/README.md) |
 | 73 | Counting Fractions in a Range | [Code](src/euler/problems/p0073_counting_fractions_in_a_range/solution.py) | [Note](src/euler/problems/p0073_counting_fractions_in_a_range/README.md) |
+| 74 | Digit Factorial Chains | [Code](src/euler/problems/p0074_digit_factorial_chains/solution.py) | [Note](src/euler/problems/p0074_digit_factorial_chains/README.md) |
