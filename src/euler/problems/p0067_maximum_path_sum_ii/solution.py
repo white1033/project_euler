@@ -3,6 +3,7 @@ Problem 67: Maximum Path Sum II
 """
 
 from pathlib import Path
+
 from euler.utils.common import timeit
 
 
@@ -14,7 +15,7 @@ def solve():
     """
     # Read the triangle from the file
     current_dir = Path(__file__).parent
-    with open(current_dir / "triangle.txt", "r") as f:
+    with open(current_dir / "triangle.txt") as f:
         triangle_str = f.read()
 
     triangle = [[int(num) for num in line.split()] for line in triangle_str.strip().split("\n")]
