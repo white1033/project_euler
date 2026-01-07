@@ -168,3 +168,4 @@ just lint
 | 69 | Totient Maximum | [Code](src/euler/problems/p0069_totient_maximum/solution.py) | [Note](src/euler/problems/p0069_totient_maximum/README.md) |
 | 70 | Totient Permutation | [Code](src/euler/problems/p0070_totient_permutation/solution.py) | [Note](src/euler/problems/p0070_totient_permutation/README.md) |
 | 71 | Ordered Fractions | [Code](src/euler/problems/p0071_ordered_fractions/solution.py) | [Note](src/euler/problems/p0071_ordered_fractions/README.md) |
+| 72 | Counting Fractions | [Code](src/euler/problems/p0072_counting_fractions/solution.py) | [Note](src/euler/problems/p0072_counting_fractions/README.md) |
