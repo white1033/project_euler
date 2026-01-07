@@ -164,3 +164,4 @@ just lint
 | 65 | Convergents of e | [Code](src/euler/problems/p0065_convergents_of_e/solution.py) | [Note](src/euler/problems/p0065_convergents_of_e/README.md) |
 | 66 | Diophantine Equation | [Code](src/euler/problems/p0066_diophantine_equation/solution.py) | [Note](src/euler/problems/p0066_diophantine_equation/README.md) |
 | 67 | Maximum Path Sum II | [Code](src/euler/problems/p0067_maximum_path_sum_ii/solution.py) | [Note](src/euler/problems/p0067_maximum_path_sum_ii/README.md) |
+| 68 | Magic 5-gon ring | [Code](src/euler/problems/p0068_magic_5_gon_ring/solution.py) | [Note](src/euler/problems/p0068_magic_5_gon_ring/README.md) |
