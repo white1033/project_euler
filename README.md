@@ -167,3 +167,4 @@ just lint
 | 68 | Magic 5-gon ring | [Code](src/euler/problems/p0068_magic_5_gon_ring/solution.py) | [Note](src/euler/problems/p0068_magic_5_gon_ring/README.md) |
 | 69 | Totient Maximum | [Code](src/euler/problems/p0069_totient_maximum/solution.py) | [Note](src/euler/problems/p0069_totient_maximum/README.md) |
 | 70 | Totient Permutation | [Code](src/euler/problems/p0070_totient_permutation/solution.py) | [Note](src/euler/problems/p0070_totient_permutation/README.md) |
+| 71 | Ordered Fractions | [Code](src/euler/problems/p0071_ordered_fractions/solution.py) | [Note](src/euler/problems/p0071_ordered_fractions/README.md) |
