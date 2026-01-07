@@ -30,3 +30,23 @@ The number of pairs to check is roughly:
 $$ \sum_{d=1}^{12000} (\frac{d}{2} - \frac{d}{3}) = \sum \frac{d}{6} \approx \frac{1}{6} \frac{12000^2}{2} \approx 1.2 \times 10^7 $$
 Checking 12 million GCDs is well within the 1-second timeframe for modern CPUs.
 
+### Alternative Approaches (for larger limits)
+
+1.  **Stern-Brocot Tree / Farey Sequence Recursion**
+    We can generate fractions strictly between $1/3$ and $1/2$ using the mediant property.
+    If $a/b$ and $c/d$ are adjacent terms in a Farey sequence, the next term between them is $(a+c)/(b+d)$.
+    Starting with left=$1/3$ and right=$1/2$, we can recursively find the mediant $m = (1+1)/(3+2) = 2/5$.
+    Then recurse on $(1/3, 2/5)$ and $(2/5, 1/2)$.
+    The recursion stops when the denominator exceeds the limit.
+    This effectively enumerates the Stern-Brocot tree in the relevant range.
+
+2.  **Inclusion-Exclusion Principle (Mobius Inversion)**
+    For a very large limit $L$ (e.g., $10^{10}$), we can calculate the total number of fractions (reduced or not) in the range:
+    $$ T(L) = \sum_{d=2}^{L} (\lfloor \frac{d-1}{2} \rfloor - \lfloor \frac{d}{3} \rfloor) $$
+    Let $R(L)$ be the count of reduced fractions.
+    $$ R(L) = \sum_{k=1}^{L} \mu(k) \times (\text{Total fractions with denominator } \le \lfloor L/k \rfloor \text{ in range}) $$
+    Actually, a simpler recursive formula is often used:
+    $$ R(N) = T(N) - \sum_{k=2} R(\lfloor N/k \rfloor) $$
+    This avoids explicit Mobius calculation but uses memoization.
+
+
