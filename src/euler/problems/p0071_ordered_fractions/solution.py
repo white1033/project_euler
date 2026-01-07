@@ -1,3 +1,7 @@
+from euler.utils.common import timeit
+
+
+@timeit
 def solve(limit: int = 1000000) -> int:
     """
     Finds the numerator of the fraction immediately to the left of 3/7
@@ -30,3 +34,7 @@ def solve(limit: int = 1000000) -> int:
     n = (3 * d - 1) // 7
 
     return n
+
+
+if __name__ == "__main__":
+    print(solve())

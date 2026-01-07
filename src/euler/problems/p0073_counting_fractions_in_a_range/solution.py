@@ -1,6 +1,8 @@
 from math import gcd
+from euler.utils.common import timeit
 
 
+@timeit
 def solve(limit: int = 12000) -> int:
     """
     How many fractions lie between 1/3 and 1/2 in the sorted set of reduced proper fractions for d <= limit?
@@ -28,3 +30,7 @@ def solve(limit: int = 12000) -> int:
                 count += 1
 
     return count
+
+
+if __name__ == "__main__":
+    print(solve())
