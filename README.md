@@ -159,3 +159,8 @@ just lint
 | 60 | Prime Pair Sets | [Code](src/euler/problems/p0060_prime_pair_sets/solution.py) | [Note](src/euler/problems/p0060_prime_pair_sets/README.md) |
 | 61 | Cyclical Figurate Numbers | [Code](src/euler/problems/p0061_cyclical_figurate_numbers/solution.py) | [Note](src/euler/problems/p0061_cyclical_figurate_numbers/README.md) |
 | 62 | Cubic Permutations | [Code](src/euler/problems/p0062_cubic_permutations/solution.py) | [Note](src/euler/problems/p0062_cubic_permutations/README.md) |
+| 63 | Powerful Digit Counts | [Code](src/euler/problems/p0063_powerful_digit_counts/solution.py) | [Note](src/euler/problems/p0063_powerful_digit_counts/README.md) |
+| 64 | Odd Period Square Roots | [Code](src/euler/problems/p0064_odd_period_square_roots/solution.py) | [Note](src/euler/problems/p0064_odd_period_square_roots/README.md) |
+| 65 | Convergents of e | [Code](src/euler/problems/p0065_convergents_of_e/solution.py) | [Note](src/euler/problems/p0065_convergents_of_e/README.md) |
+| 66 | Diophantine Equation | [Code](src/euler/problems/p0066_diophantine_equation/solution.py) | [Note](src/euler/problems/p0066_diophantine_equation/README.md) |
+| 67 | Maximum Path Sum II | [Code](src/euler/problems/p0067_maximum_path_sum_ii/solution.py) | [Note](src/euler/problems/p0067_maximum_path_sum_ii/README.md) |
