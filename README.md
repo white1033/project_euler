@@ -175,3 +175,4 @@ just lint
 | 76 | Counting Summations | [Code](src/euler/problems/p0076_counting_summations/solution.py) | [Note](src/euler/problems/p0076_counting_summations/README.md) |
 | 77 | Prime Summations | [Code](src/euler/problems/p0077_prime_summations/solution.py) | [Note](src/euler/problems/p0077_prime_summations/README.md) |
 | 78 | Coin Partitions | [Code](src/euler/problems/p0078_coin_partitions/solution.py) | [Note](src/euler/problems/p0078_coin_partitions/README.md) |
+| 79 | Passcode Derivation | [Code](src/euler/problems/p0079_passcode_derivation/solution.py) | [Note](src/euler/problems/p0079_passcode_derivation/README.md) |
