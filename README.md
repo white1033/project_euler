@@ -172,3 +172,4 @@ just lint
 | 73 | Counting Fractions in a Range | [Code](src/euler/problems/p0073_counting_fractions_in_a_range/solution.py) | [Note](src/euler/problems/p0073_counting_fractions_in_a_range/README.md) |
 | 74 | Digit Factorial Chains | [Code](src/euler/problems/p0074_digit_factorial_chains/solution.py) | [Note](src/euler/problems/p0074_digit_factorial_chains/README.md) |
 | 75 | Singular Integer Right Triangles | [Code](src/euler/problems/p0075_singular_integer_right_triangles/solution.py) | [Note](src/euler/problems/p0075_singular_integer_right_triangles/README.md) |
+| 76 | Counting Summations | [Code](src/euler/problems/p0076_counting_summations/solution.py) | [Note](src/euler/problems/p0076_counting_summations/README.md) |
