@@ -3,6 +3,7 @@ Problem 75: Singular Integer Right Triangles
 """
 
 from math import gcd, isqrt
+
 from euler.utils.common import timeit
 
 

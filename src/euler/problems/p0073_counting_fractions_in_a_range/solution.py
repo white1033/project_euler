@@ -1,4 +1,5 @@
 from math import gcd
+
 from euler.utils.common import timeit
 
 

@@ -1,4 +1,4 @@
-from euler.problems.p0074_digit_factorial_chains.solution import solve, next_number
+from euler.problems.p0074_digit_factorial_chains.solution import next_number, solve
 
 
 def test_next_number():
