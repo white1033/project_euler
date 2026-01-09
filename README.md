@@ -181,3 +181,4 @@ just lint
 | 82 | Path Sum: Three Ways | [Code](src/euler/problems/p0082_path_sum_three_ways/solution.py) | [Note](src/euler/problems/p0082_path_sum_three_ways/README.md) |
 | 83 | Path Sum: Four Ways | [Code](src/euler/problems/p0083_path_sum_four_ways/solution.py) | [Note](src/euler/problems/p0083_path_sum_four_ways/README.md) |
 | 84 | Monopoly Odds | [Code](src/euler/problems/p0084_monopoly_odds/solution.py) | [Note](src/euler/problems/p0084_monopoly_odds/README.md) |
+| 85 | Counting Rectangles | [Code](src/euler/problems/p0085_counting_rectangles/solution.py) | [Note](src/euler/problems/p0085_counting_rectangles/README.md) |
