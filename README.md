@@ -177,3 +177,4 @@ just lint
 | 78 | Coin Partitions | [Code](src/euler/problems/p0078_coin_partitions/solution.py) | [Note](src/euler/problems/p0078_coin_partitions/README.md) |
 | 79 | Passcode Derivation | [Code](src/euler/problems/p0079_passcode_derivation/solution.py) | [Note](src/euler/problems/p0079_passcode_derivation/README.md) |
 | 80 | Square Root Digital Expansion | [Code](src/euler/problems/p0080_square_root_digital_expansion/solution.py) | [Note](src/euler/problems/p0080_square_root_digital_expansion/README.md) |
+| 81 | Path Sum: Two Ways | [Code](src/euler/problems/p0081_path_sum_two_ways/solution.py) | [Note](src/euler/problems/p0081_path_sum_two_ways/README.md) |
