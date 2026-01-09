@@ -180,3 +180,4 @@ just lint
 | 81 | Path Sum: Two Ways | [Code](src/euler/problems/p0081_path_sum_two_ways/solution.py) | [Note](src/euler/problems/p0081_path_sum_two_ways/README.md) |
 | 82 | Path Sum: Three Ways | [Code](src/euler/problems/p0082_path_sum_three_ways/solution.py) | [Note](src/euler/problems/p0082_path_sum_three_ways/README.md) |
 | 83 | Path Sum: Four Ways | [Code](src/euler/problems/p0083_path_sum_four_ways/solution.py) | [Note](src/euler/problems/p0083_path_sum_four_ways/README.md) |
+| 84 | Monopoly Odds | [Code](src/euler/problems/p0084_monopoly_odds/solution.py) | [Note](src/euler/problems/p0084_monopoly_odds/README.md) |
