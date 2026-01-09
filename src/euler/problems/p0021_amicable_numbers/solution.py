@@ -1,6 +1,7 @@
-'''
+"""
 Problem 21: Amicable Numbers
-'''
+"""
+
 from euler.utils.common import timeit
 from euler.utils.primes import sum_proper_divisors
 
@@ -11,7 +12,7 @@ def solve(limit: int = 10000) -> int:
     Evaluate the sum of all the amicable numbers under limit.
     """
     amicable_sum = 0
-    
+
     # We can optimize by calculating sum_divisors for all numbers up to limit first?
     # Or just calculate on the fly. Since limit is 10000, on the fly is fine.
     # But wait, we need to handle the case where b > limit.
@@ -22,19 +23,18 @@ def solve(limit: int = 10000) -> int:
     # Even if its partner is > 10000.
     # However, for small limit like 10000, usually partners are close.
     # Let's iterate `a` < limit.
-    
+
     for a in range(2, limit):
         b = sum_proper_divisors(a)
-        if b > a: # We only check when b > a to avoid double counting pairs
-            # Check if b is a's pair
-            if sum_proper_divisors(b) == a:
-                amicable_sum += a
-                # If b is also under limit, add it too.
-                # If b >= limit, we don't add it because the question asks for numbers UNDER 10000.
-                if b < limit:
-                    amicable_sum += b
-                    
+        if b > a and sum_proper_divisors(b) == a:
+            amicable_sum += a
+            # If b is also under limit, add it too.
+            # If b >= limit, we don't add it because the question asks for numbers UNDER 10000.
+            if b < limit:
+                amicable_sum += b
+
     return amicable_sum
+
 
 if __name__ == "__main__":
     result = solve()

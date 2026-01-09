@@ -11,8 +11,10 @@ def test_p0014_example():
     # 9: 9, 28, 14, 7, 22, 11, 34, 17, 52, 26, 13, ... (9 + 10 = 19 terms + 1 = 20 terms)
     # Actually let's check:
     # 13 -> 10 terms.
-    # 9 -> 28 -> 14 -> 7 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13 (10 steps to 13) -> ... (9 more steps to 1) => 20 terms.
+    # 9 -> 28 -> 14 -> 7 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13
+    # (10 steps to 13) -> ... (9 more steps to 1) => 20 terms.
     assert solve(limit=14) == 9
+
 
 def test_p0014_solution():
     assert solve() == 837799

@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from euler.utils.common import timeit
 
 
@@ -13,7 +14,7 @@ def solve():
         if not matrix_path.exists():
             raise FileNotFoundError(f"Could not find matrix file at {current_dir}")
 
-    with open(matrix_path, "r") as f:
+    with open(matrix_path) as f:
         matrix = [[int(num) for num in line.strip().split(",")] for line in f if line.strip()]
 
     rows = len(matrix)

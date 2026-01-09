@@ -1,6 +1,7 @@
-'''
+"""
 Problem 13: Large Sum
-'''
+"""
+
 from euler.utils.common import timeit
 
 NUMBERS_STR = """
@@ -106,16 +107,19 @@ NUMBERS_STR = """
 53503534226472524250874054075591789781264330331690
 """
 
+
 @timeit
 def solve() -> int:
     """
     Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
     """
-    numbers = [int(line) for line in NUMBERS_STR.strip().split('\n')]
+    numbers = [int(line) for line in NUMBERS_STR.strip().split("\n")]
     total_sum = sum(numbers)
-    
-    # Return the first 10 digits as a number (implied by problem, usually it's the number formed by digits)
+
+    # Return the first 10 digits as a number.
+    # (implied by problem, usually it's the number formed by digits)
     return int(str(total_sum)[:10])
+
 
 if __name__ == "__main__":
     result = solve()

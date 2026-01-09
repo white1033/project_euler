@@ -1,6 +1,7 @@
-'''
+"""
 Problem 11: Largest Product in a Grid
-'''
+"""
+
 from euler.utils.common import timeit
 
 GRID_STR = """
@@ -26,41 +27,47 @@ GRID_STR = """
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 """
 
+
 @timeit
 def solve():
     """
     Finds the greatest product of four adjacent numbers in the 20x20 grid.
     Directions: Up, Down, Left, Right, Diagonal.
     """
-    grid = [[int(num) for num in line.split()] for line in GRID_STR.strip().split('\n')]
+    grid = [[int(num) for num in line.split()] for line in GRID_STR.strip().split("\n")]
     rows = len(grid)
     cols = len(grid[0])
-    
+
     max_prod = 0
-    
+
     for r in range(rows):
         for c in range(cols):
             # Horizontal (Right)
             if c + 3 < cols:
-                prod = grid[r][c] * grid[r][c+1] * grid[r][c+2] * grid[r][c+3]
-                if prod > max_prod: max_prod = prod
-                
+                prod = grid[r][c] * grid[r][c + 1] * grid[r][c + 2] * grid[r][c + 3]
+                if prod > max_prod:
+                    max_prod = prod
+
             # Vertical (Down)
             if r + 3 < rows:
-                prod = grid[r][c] * grid[r+1][c] * grid[r+2][c] * grid[r+3][c]
-                if prod > max_prod: max_prod = prod
-                
+                prod = grid[r][c] * grid[r + 1][c] * grid[r + 2][c] * grid[r + 3][c]
+                if prod > max_prod:
+                    max_prod = prod
+
             # Diagonal (Down-Right)
             if r + 3 < rows and c + 3 < cols:
-                prod = grid[r][c] * grid[r+1][c+1] * grid[r+2][c+2] * grid[r+3][c+3]
-                if prod > max_prod: max_prod = prod
-                
+                prod = grid[r][c] * grid[r + 1][c + 1] * grid[r + 2][c + 2] * grid[r + 3][c + 3]
+                if prod > max_prod:
+                    max_prod = prod
+
             # Anti-Diagonal (Down-Left)
             if r + 3 < rows and c - 3 >= 0:
-                prod = grid[r][c] * grid[r+1][c-1] * grid[r+2][c-2] * grid[r+3][c-3]
-                if prod > max_prod: max_prod = prod
-                
+                prod = grid[r][c] * grid[r + 1][c - 1] * grid[r + 2][c - 2] * grid[r + 3][c - 3]
+                if prod > max_prod:
+                    max_prod = prod
+
     return max_prod
+
 
 if __name__ == "__main__":
     result = solve()

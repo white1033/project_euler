@@ -26,9 +26,8 @@ def solve_brute_force():
     limit = 1_000_000
     total_sum = 0
     for n in range(1, limit, 2):
-        if is_palindrome(str(n)):
-            if is_palindrome(f"{n:b}"):
-                total_sum += n
+        if is_palindrome(str(n)) and is_palindrome(f"{n:b}"):
+            total_sum += n
     return total_sum
 
 
@@ -44,28 +43,27 @@ def solve_generative():
     # We generate palindromes from roots 1 to 999.
     # Case 1: Odd length palindromes (e.g., root 12 -> 121, root 999 -> 99999)
     # Case 2: Even length palindromes (e.g., root 12 -> 1221, root 999 -> 999999)
-    
+
     for k in range(1, 1000):
         # Generate odd length palindrome
         p_odd = make_palindrome(k, odd_length=True)
-        if p_odd < limit:
-            # Check optimization: Base 2 palindrome must be odd.
-            # Base 10 palindrome ending is same as starting digit.
-            # So if p_odd is odd, it's worth checking.
-            if p_odd % 2 != 0 and is_palindrome(f"{p_odd:b}"):
-                total_sum += p_odd
-        
+
+        # Check optimization: Base 2 palindrome must be odd.
+        # Base 10 palindrome ending is same as starting digit.
+        # So if p_odd is odd, it's worth checking.
+        if p_odd < limit and p_odd % 2 != 0 and is_palindrome(f"{p_odd:b}"):
+            total_sum += p_odd
+
         # Generate even length palindrome
         p_even = make_palindrome(k, odd_length=False)
-        if p_even < limit:
-            if p_even % 2 != 0 and is_palindrome(f"{p_even:b}"):
-                total_sum += p_even
+        if p_even < limit and p_even % 2 != 0 and is_palindrome(f"{p_even:b}"):
+            total_sum += p_even
 
     return total_sum
 
 
 def solve():
-    # We return the optimized one as the main answer, 
+    # We return the optimized one as the main answer,
     # but I kept brute_force above for manual comparison if desired.
     return solve_generative()
 

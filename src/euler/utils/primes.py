@@ -37,10 +37,7 @@ def is_prime(n: int) -> bool:
     # For this specific problem (n ~ 7*10^8), [2, 7, 61] is sufficient.
     # To be safe for general use up to 2^64, we use the larger set.
 
-    if n < 4759123141:
-        bases = [2, 7, 61]
-    else:
-        bases = [2, 325, 9375, 28178, 450775, 9780504, 1795265022]
+    bases = [2, 7, 61] if n < 4759123141 else [2, 325, 9375, 28178, 450775, 9780504, 1795265022]
 
     for a in bases:
         if a >= n:
