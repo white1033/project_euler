@@ -192,3 +192,4 @@ just lint
 | 93 | Arithmetic Expressions | [Code](src/euler/problems/p0093_arithmetic_expressions/solution.py) | [Note](src/euler/problems/p0093_arithmetic_expressions/README.md) |
 | 94 | Almost Equilateral Triangles | [Code](src/euler/problems/p0094_almost_equilateral_triangles/solution.py) | [Note](src/euler/problems/p0094_almost_equilateral_triangles/README.md) |
 | 95 | Amicable Chains | [Code](src/euler/problems/p0095_amicable_chains/solution.py) | [Note](src/euler/problems/p0095_amicable_chains/README.md) |
+| 96 | Su Doku | [Code](src/euler/problems/p0096_su_doku/solution.py) | [Note](src/euler/problems/p0096_su_doku/README.md) |
