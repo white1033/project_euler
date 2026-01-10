@@ -196,3 +196,4 @@ just lint
 | 97 | Large Non-Mersenne Prime | [Code](src/euler/problems/p0097_large_non_mersenne_prime/solution.py) | [Note](src/euler/problems/p0097_large_non_mersenne_prime/README.md) |
 | 98 | Anagramic Squares | [Code](src/euler/problems/p0098_anagramic_squares/solution.py) | [Note](src/euler/problems/p0098_anagramic_squares/README.md) |
 | 99 | Largest Exponential | [Code](src/euler/problems/p0099_largest_exponential/solution.py) | [Note](src/euler/problems/p0099_largest_exponential/README.md) |
+| 100 | Arranged Probability | [Code](src/euler/problems/p0100_arranged_probability/solution.py) | [Note](src/euler/problems/p0100_arranged_probability/README.md) |
