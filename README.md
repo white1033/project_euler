@@ -188,3 +188,4 @@ just lint
 | 89 | Roman Numerals | [Code](src/euler/problems/p0089_roman_numerals/solution.py) | [Note](src/euler/problems/p0089_roman_numerals/README.md) |
 | 90 | Cube Digit Pairs | [Code](src/euler/problems/p0090_cube_digit_pairs/solution.py) | [Note](src/euler/problems/p0090_cube_digit_pairs/README.md) |
 | 91 | Right Triangles with Integer Coordinates | [Code](src/euler/problems/p0091_right_triangles_with_integer_coordinates/solution.py) | [Note](src/euler/problems/p0091_right_triangles_with_integer_coordinates/README.md) |
+| 92 | Square Digit Chains | [Code](src/euler/problems/p0092_square_digit_chains/solution.py) | [Note](src/euler/problems/p0092_square_digit_chains/README.md) |
