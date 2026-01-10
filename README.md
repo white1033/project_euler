@@ -194,3 +194,4 @@ just lint
 | 95 | Amicable Chains | [Code](src/euler/problems/p0095_amicable_chains/solution.py) | [Note](src/euler/problems/p0095_amicable_chains/README.md) |
 | 96 | Su Doku | [Code](src/euler/problems/p0096_su_doku/solution.py) | [Note](src/euler/problems/p0096_su_doku/README.md) |
 | 97 | Large Non-Mersenne Prime | [Code](src/euler/problems/p0097_large_non_mersenne_prime/solution.py) | [Note](src/euler/problems/p0097_large_non_mersenne_prime/README.md) |
+| 98 | Anagramic Squares | [Code](src/euler/problems/p0098_anagramic_squares/solution.py) | [Note](src/euler/problems/p0098_anagramic_squares/README.md) |
