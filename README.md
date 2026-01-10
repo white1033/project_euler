@@ -185,3 +185,4 @@ just lint
 | 86 | Cuboid Route | [Code](src/euler/problems/p0086_cuboid_route/solution.py) | [Note](src/euler/problems/p0086_cuboid_route/README.md) |
 | 87 | Prime Power Triples | [Code](src/euler/problems/p0087_prime_power_triples/solution.py) | [Note](src/euler/problems/p0087_prime_power_triples/README.md) |
 | 88 | Product-sum Numbers | [Code](src/euler/problems/p0088_product_sum_numbers/solution.py) | [Note](src/euler/problems/p0088_product_sum_numbers/README.md) |
+| 89 | Roman Numerals | [Code](src/euler/problems/p0089_roman_numerals/solution.py) | [Note](src/euler/problems/p0089_roman_numerals/README.md) |
