@@ -1,5 +1,6 @@
-from euler.utils.common import timeit
 import os
+
+from euler.utils.common import timeit
 
 
 def roman_to_int(s: str) -> int:
@@ -48,7 +49,7 @@ def solve() -> int:
 
     saved_chars = 0
 
-    with open(file_path, "r") as f:
+    with open(file_path) as f:
         for line in f:
             original = line.strip()
             if not original:

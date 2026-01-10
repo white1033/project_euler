@@ -1,6 +1,7 @@
-from euler.utils.common import timeit
-from itertools import combinations, permutations, product
 import operator
+from itertools import combinations, permutations, product
+
+from euler.utils.common import timeit
 
 
 @timeit

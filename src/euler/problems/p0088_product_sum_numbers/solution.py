@@ -1,5 +1,5 @@
+
 from euler.utils.common import timeit
-import math
 
 
 @timeit

@@ -1,6 +1,7 @@
-from euler.utils.common import timeit
 import os
 from math import log
+
+from euler.utils.common import timeit
 
 
 @timeit
@@ -11,7 +12,7 @@ def solve() -> int:
     max_val = 0
     max_line = 0
 
-    with open(file_path, "r") as f:
+    with open(file_path) as f:
         for i, line in enumerate(f, 1):
             if not line.strip():
                 continue

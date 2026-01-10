@@ -1,5 +1,6 @@
-from euler.utils.common import timeit
 import os
+
+from euler.utils.common import timeit
 
 
 def solve_sudoku(grid):
@@ -38,7 +39,7 @@ def solve() -> int:
     file_path = os.path.join(current_dir, "sudoku.txt")
 
     grids = []
-    with open(file_path, "r") as f:
+    with open(file_path) as f:
         lines = f.readlines()
 
     current_grid = []

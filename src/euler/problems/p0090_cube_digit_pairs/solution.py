@@ -18,9 +18,7 @@ def solve() -> int:
             return True
         if d == 6 and 9 in cube:
             return True
-        if d == 9 and 6 in cube:
-            return True
-        return False
+        return d == 9 and 6 in cube
 
     def check(c1, c2):
         for d1, d2 in squares:

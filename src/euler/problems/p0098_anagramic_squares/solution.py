@@ -20,14 +20,14 @@ def solve() -> int:
         anagrams[key].append(w)
 
     pairs = []
-    for key, word_list in anagrams.items():
+    for _key, word_list in anagrams.items():
         if len(word_list) >= 2:
             for i in range(len(word_list)):
                 for j in range(i + 1, len(word_list)):
                     pairs.append((word_list[i], word_list[j]))
 
     max_len = 0
-    for w1, w2 in pairs:
+    for w1, _w2 in pairs:
         max_len = max(max_len, len(w1))
 
     squares_by_len = defaultdict(list)
@@ -35,17 +35,17 @@ def solve() -> int:
     while True:
         sq = k * k
         s_sq = str(sq)
-        l = len(s_sq)
-        if l > max_len:
+        length = len(s_sq)
+        if length > max_len:
             break
-        squares_by_len[l].append(s_sq)
+        squares_by_len[length].append(s_sq)
         k += 1
 
     max_square = 0
 
     for w1, w2 in pairs:
-        l = len(w1)
-        candidates = squares_by_len[l]
+        length = len(w1)
+        candidates = squares_by_len[length]
         candidates_set = set(candidates)
 
         for sq_str in candidates:
@@ -53,7 +53,7 @@ def solve() -> int:
             used_digits = set()
             valid = True
 
-            for char, digit in zip(w1, sq_str):
+            for char, digit in zip(w1, sq_str, strict=True):
                 if char in mapping:
                     if mapping[char] != digit:
                         valid = False
