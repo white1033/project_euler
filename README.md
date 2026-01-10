@@ -183,3 +183,4 @@ just lint
 | 84 | Monopoly Odds | [Code](src/euler/problems/p0084_monopoly_odds/solution.py) | [Note](src/euler/problems/p0084_monopoly_odds/README.md) |
 | 85 | Counting Rectangles | [Code](src/euler/problems/p0085_counting_rectangles/solution.py) | [Note](src/euler/problems/p0085_counting_rectangles/README.md) |
 | 86 | Cuboid Route | [Code](src/euler/problems/p0086_cuboid_route/solution.py) | [Note](src/euler/problems/p0086_cuboid_route/README.md) |
+| 87 | Prime Power Triples | [Code](src/euler/problems/p0087_prime_power_triples/solution.py) | [Note](src/euler/problems/p0087_prime_power_triples/README.md) |
